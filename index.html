@@ -1,0 +1,72 @@
+<!doctype html>
+
+<html>
+
+<head>
+      <title> crystal game </title>
+
+       <link rel="stylesheet" href="style.css"/>
+       <script
+       src="https://code.jquery.com/jquery-2.2.4.min.js"
+       integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+       crossorigin="anonymous"></script>
+ 
+</head>
+<body>
+  <!-- this is the header -->
+  <header>
+    <h1>Crystal Collector Game </h1>
+    </header>
+    <!--main starts here -->
+    <main>
+       <h2>Instructions</h2>
+        <p> You will be given a random number at the start of the game <br>
+          There are four crystals below.by clicking on a a crystal you will add a specific amount of points to your total score.
+          You win the game by matching your total score to the random number chosen by the game. you lose the game if your total score goes above this random number.
+          the value of each crystal is hidden from you until you click on it.
+          Each time the game starts,it will change the values of each crystal.
+        </p>
+      </main>
+      <!-- these are crystal button -->
+    <aside>
+        <div class="right"><h3>crystal selction </h3></div>
+          <div class="buttons">       
+               <img class="image" id="image1" src="button1.jpg">
+               <img class="image" id="image2" src="button2.jpg">
+               <img class="image" id="image3" src="button3.jpg">
+               <img class="image" id="image4" src="button4.jpg">
+        </div>
+        <br>
+        <br>
+    </aside>
+      <!-- your score -->
+    <div id="left">
+        <div class="score"> <h3>usertotal</h3></div>
+        <p> Your Score is: <span id ="totalScore">0</span></p>
+    </div>
+<!-- target score -->
+    <section>
+        <div class="scoreToMatch"><h3>target score</h3> </div>
+        <p>Your targetscore is: <span id ="scoreToMatch">0</span></p>
+    </section>
+<!-- win count -->
+    <div id="win">
+       <div class="win"><h3>Win Count</h3> </div>
+       <p>wins:<span id="wins"></span> </p>
+    </div>
+<!-- loss count -->
+    <div id="loss">
+       <div class="loss"><h3>Loss Count</h3> </div>
+       <p> Losses: <span id="losses"></span> </p>
+    </div>
+
+<!-- this is my external javascript link -->
+
+
+
+  <script src="my_script.js"></script>
+
+
+
+</body>
+</html>

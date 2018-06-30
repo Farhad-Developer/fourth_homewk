@@ -1,0 +1,129 @@
+
+/* I set a background color and set the margin to 0 for the whole body of the web*/
+body { background-image: url(daimond.jpg);
+       margin:0px;
+
+}
+/*  header starts here */
+header { background-color:#40a4df;
+        padding: 40px;
+        text-align: center;
+
+}
+/*  h1 is insite the header*/
+h1 {font-size:50px;
+  color:white;
+}
+/*  this p is insite main section of the web */
+ p {
+  padding: 5px;
+  text-align:justify;
+
+}
+/*  h2 is the header for the main section of the page */
+h2 {font-size:20px;
+  color:white;
+  background-color: #40a4df;
+  text-align:center;
+  padding: 20px;
+}
+main { 
+border-right: 1px solid white;
+border-bottom: 1px solid white;
+border-left: 1px solid white;
+background-color: white;
+
+
+}
+
+aside { background-color:white;
+margin-top:40px;
+width:30%;
+float: right;;
+margin-right: 20px;
+}
+h3 {font-size:15px;
+  color:white;
+  text-align:center;
+  }
+
+  .right { background-color: #40a4df; 
+   padding:1px;}
+
+  #left { background-color:white;
+    margin-top:40px;
+    width:30.5%;
+    float: right;
+    margin-right: 30px;
+
+    }
+
+    .score {font-size:15px;
+      background-color: #40a4df;
+      text-align:center;
+      padding:2px;
+     
+      }
+
+
+  
+ 
+
+  section { background-color:white;
+    margin-top:40px;
+    width:30.5%;
+    float: right;
+    margin-right: 30px;
+    
+    }
+
+    .scoreToMatch {font-size:15px;
+      background-color: #40a4df;
+      text-align:center;
+      padding:2px;
+     
+      }
+     
+     
+       
+
+       .image { width: 70px;
+      height:70px;
+     margin:20px;
+     border: 1px solid black;
+     outline:5px solid green;
+     box-shadow: 5px 10px #888888;
+
+
+    }
+
+ 
+    #loss { background-color:white;
+      margin-top:40px;
+      width:30.5%;
+      float: right;
+      margin-right: 30px;
+      
+      }
+  
+      .loss {font-size:15px;
+        background-color: #40a4df;
+        text-align:center;
+        padding:2px;
+       
+        }
+
+    #win { background-color:white;
+      margin-top:40px;
+      width:30.5%;
+      float: right;
+      margin-right: 30px;
+      
+      }
+  
+      .win {font-size:15px;
+        background-color: #40a4df;
+        text-align:center;
+        padding:2px;
+       
+        }
